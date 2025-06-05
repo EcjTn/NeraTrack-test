@@ -1,7 +1,7 @@
-require('dotenv').config() //dotenv
+//require('dotenv').config()
 const { error } = require('console')
-const { items } = require('./figures/models') //package
-const { cart } = require('./figures/models') //package
+const { items } = require('./figures/models')
+const { cart } = require('./figures/models')
 const { returnPromise } = require('./promises/promise')
 const { getMsg } = require('./promises/promise')
 
@@ -15,7 +15,6 @@ async function thisAsync() {
         console.log('[@NeraTrack] :',getMsg())
     }
 }
-
 
 thisAsync()
 
