@@ -6,11 +6,6 @@ const { returnPromise } = require('./promises/promise')
 const { getMsg } = require('./promises/promise')
 
 
-
-
-
-
-
 async function thisAsync() {
     try{
         await returnPromise()
