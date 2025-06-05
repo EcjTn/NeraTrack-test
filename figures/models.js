@@ -11,10 +11,6 @@ const items = [
     { id: 10, name: "Piano", price: 100 },
 ]
 
-
-
-
-
 const cart = [
     { name: "Cart"},
     { name: "Cookie Cart"},
@@ -27,17 +23,6 @@ const cart = [
     { name: "Guitar" },
     {  name: "Piano"},
 ]
-
-
-
-
-
-
-
-
-
-
-
 
 
 
