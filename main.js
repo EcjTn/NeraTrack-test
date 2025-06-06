@@ -5,7 +5,7 @@ const { returnPromise } = require('./promises/promise')
 const { getMsg } = require('./promises/promise')
 
 
-async function thisAsync() {
+async function startAsync() {
     try{
         await returnPromise()
         console.log('[@NeraTrack] :',getMsg())
@@ -14,7 +14,4 @@ async function thisAsync() {
         console.log('[@NeraTrack] :',getMsg())
     }
 }
-
-thisAsync()
-
-
+startAsync()
