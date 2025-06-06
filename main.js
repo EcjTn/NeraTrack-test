@@ -1,6 +1,5 @@
 const { items, cart } = require('./figures/models')
-const { returnPromise } = require('./promises/promise')
-const { getMsg } = require('./promises/promise')
+const { getMsg, returnPromise } = require('./promises/promise')
 
 
 async function startAsync() {
