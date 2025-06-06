@@ -1,4 +1,3 @@
-//require('dotenv').config()
 const { error } = require('console')
 const { items } = require('./figures/models')
 const { cart } = require('./figures/models')
