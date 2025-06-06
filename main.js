@@ -1,6 +1,4 @@
-const { error } = require('console')
-const { items } = require('./figures/models')
-const { cart } = require('./figures/models')
+const { items, cart } = require('./figures/models')
 const { returnPromise } = require('./promises/promise')
 const { getMsg } = require('./promises/promise')
 
