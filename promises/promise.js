@@ -1,7 +1,5 @@
 const path = require('path')
 const { exec } = require('child_process')
-const { stderr, stdout } = require('process')
-
 
 let pathPy = path.join(__dirname, '..', 'scripts', 'main.py')
 let msgz = "";
