@@ -4,8 +4,6 @@ const { exec } = require('child_process')
 let pathPy = path.join(__dirname, '..', 'scripts', 'main.py')
 let msgz = "";
 
-
-
 function returnPromise() {
     return new Promise((resolve, reject) => {
 
@@ -25,15 +23,6 @@ function returnPromise() {
         })
     })
 }
-
-
-
-
-
-
-
-
-
 
 module.exports = {
     returnPromise,
