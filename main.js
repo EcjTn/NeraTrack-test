@@ -12,3 +12,4 @@ async function startAsync() {
     }
 }
 startAsync()
+//ur other functions...
