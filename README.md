@@ -9,4 +9,4 @@ Which is also reusable later in your app, like showing it on frontend or using i
 And random figures/fake datas aswell for test.
 ```
 
-- Will soon add some simple html&css to show outputs thats not only in CLI
+- or make sure to have a node server to use it on frontend
